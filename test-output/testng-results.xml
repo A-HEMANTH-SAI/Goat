@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Project created successfully using API]]>
+    </line>
+    <line>
+      <![CDATA[Project verified On GUI]]>
+    </line>
+    <line>
+      <![CDATA[Project verified in DB
+TC is Pass]]>
+    </line>
+    <line>
+      <![CDATA[***Lite747***]]>
+    </line>
+    <line>
+      <![CDATA[Created the Project using GUI]]>
+    </line>
+    <line>
+      <![CDATA[Got the project using API]]>
+    </line>
+    <line>
+      <![CDATA[Verified in DB]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-27T17:04:37 IST" name="Default suite" finished-at="2023-12-27T17:04:48 IST" duration-ms="11130">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T17:04:37 IST" name="Default test" finished-at="2023-12-27T17:04:48 IST" duration-ms="11130">
+      <class name="testapiframework.ProjectTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:testapiframework.ProjectTest@2af004b]" started-at="2023-12-27T17:04:36 IST" name="bsConfig" finished-at="2023-12-27T17:04:37 IST" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method signature="createProjectTest1()[pri:0, instance:testapiframework.ProjectTest@2af004b]" started-at="2023-12-27T17:04:37 IST" name="createProjectTest1" finished-at="2023-12-27T17:04:43 IST" duration-ms="5728" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Project created successfully using API]]>
+            </line>
+            <line>
+              <![CDATA[Project verified On GUI]]>
+            </line>
+            <line>
+              <![CDATA[Project verified in DB
+TC is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectTest1 -->
+        <test-method signature="createProjectTest2()[pri:0, instance:testapiframework.ProjectTest@2af004b]" started-at="2023-12-27T17:04:43 IST" name="createProjectTest2" finished-at="2023-12-27T17:04:48 IST" duration-ms="5349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[***Lite747***]]>
+            </line>
+            <line>
+              <![CDATA[Created the Project using GUI]]>
+            </line>
+            <line>
+              <![CDATA[Got the project using API]]>
+            </line>
+            <line>
+              <![CDATA[Verified in DB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectTest2 -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:testapiframework.ProjectTest@2af004b]" started-at="2023-12-27T17:04:48 IST" name="asConfig" finished-at="2023-12-27T17:04:48 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- testapiframework.ProjectTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
